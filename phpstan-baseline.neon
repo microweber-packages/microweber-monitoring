@@ -61,12 +61,6 @@ parameters:
 			path: src/Models/ErrorTracking.php
 
 		-
-			message: '#^Call to static method new\(\) on an unknown class Database\\Factories\\MicroweberPackages\\Monitoring\\Models\\ErrorTrackingFactory\.$#'
-			identifier: class.notFound
-			count: 1
-			path: src/Models/ErrorTracking.php
-
-		-
 			message: '#^Call to an undefined method Illuminate\\Contracts\\Auth\\Factory\:\:id\(\)\.$#'
 			identifier: method.notFound
 			count: 2
